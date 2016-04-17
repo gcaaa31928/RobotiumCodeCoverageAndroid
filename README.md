@@ -1,5 +1,6 @@
 # RobotiumCodeCoverageAndroid
-Use Robotium to estimate code coverage
+Use Robotium to estimate code coverage by jacoco
+
 
 ### How to run code coverage test
 
@@ -7,3 +8,4 @@ Use Robotium to estimate code coverage
 ```
 gradle clean createDebugCoverageReport
 ```
+coverage reports will come out at app\build\reports\coverage\debug\index.html
